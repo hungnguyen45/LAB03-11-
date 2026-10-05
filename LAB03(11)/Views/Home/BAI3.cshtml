@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Bài 3";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Đồng hồ kỹ thuật số</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .clock {
+            width: 690px;
+            height: 210px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        #time {
+            color: #00ccff;
+            font-family: "Times New Roman", serif;
+            font-size: 75px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+
+    <script src="~/Scripts/bai3.js"></script>
+
+</body>
+</html>
